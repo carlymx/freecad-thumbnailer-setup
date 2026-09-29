@@ -1,0 +1,27 @@
+# logs and state
+*.log
+nohup.out
+~/.local/state/
+
+# editor / OS noise
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# agent/editor tooling (not part of the project)
+.opencode/
+.claude/
+.agents/
+__pycache__/
+*.pyc
+
+# local test artifacts
+prueba-FreeCAD.FCStd
+out.png
+*.bak-thumbnailer
+fcth-*
+shellcheck-*.txt
